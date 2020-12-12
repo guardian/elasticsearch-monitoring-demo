@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -e
+
+docker-compose up -d
+
+echo "Docker containers are starting. You can open Kibana at http://localhost:5601/app/monitoring in a few minutes."
